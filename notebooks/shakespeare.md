@@ -92,7 +92,7 @@ Plagiarism detection software (e.g., **Turnitin**, **Grammarly Plagiarism Checke
 
 I'm using the King James Version of the Bible and I'm using the complete works of Shakespeare from Gutenberg I'm going to load the verses of the Bible into the database one verse at a time. I'm going to load the sentences from Project Gertenberg into another database table.
 
-#### Load bible text
+#### 📝Load bible text
 
 ```python
 import re
@@ -109,7 +109,7 @@ print(bible_text[:50])
 ```
 
 
-#### Load shakespeare text
+#### 📝Load shakespeare text
 
 ```python
 # Function to split text into sentences & insert into database
@@ -130,7 +130,7 @@ for sentence in sentences:
 
 ---
 
-### Step 2: Connect to PostgreSQL and create tables
+### 📝Step 2: Connect to PostgreSQL and create tables
 
 ```python
 import os

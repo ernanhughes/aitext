@@ -18,3 +18,4 @@ psycopg2
 python_dotenv
 xgboost
 seaborn
+hf_transfer
